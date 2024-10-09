@@ -7,7 +7,7 @@
         <!--   <script src="https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar.js"></script>   -->
         <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-detector.js"></script>
         <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-handler.js"></script>
-        <script>alert("v4");</script>
+        <script>alert("v5");</script>
     </head>
 
     <body style="margin: 0; overflow: hidden;">
@@ -15,11 +15,11 @@
             vr-mode-ui="enabled: false;"
             loading-screen="enabled: false;"
             renderer="logarithmicDepthBuffer: true;"
-            arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
+            arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;
+            patternRatio: 0.75"
             id="scene"
             embedded
             gesture-detector
-            patternRatio: 0.75
         >
             <a-assets>
                 <a-asset-item
